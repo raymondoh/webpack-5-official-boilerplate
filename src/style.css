@@ -1,0 +1,15 @@
+body {
+  background: blue;
+}
+.hello {
+  height: 100px;
+  color: yellow;
+  background: url("./diana.jpg");
+}
+.hi {
+  color: white;
+}
+
+.date {
+  color: green;
+}
