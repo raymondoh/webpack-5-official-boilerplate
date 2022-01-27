@@ -37,3 +37,6 @@ if (module.hot) {
     printMe();
   });
 }
+if (module.hot) {
+  module.hot.accept();
+}
