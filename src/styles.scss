@@ -1,19 +1,21 @@
-body {
-  background: green;
-  color: green;
-  span {
-    color: red;
-    font-size: 130px;
-  }
-}
+//@import "base/variables";
+//@import "base/mixins";
+@import "styles/base/global";
 
-.hi {
-  font-size: 150px;
-  color: white;
-}
+//@import "modules/header";
 
-.hello {
-  height: 100px;
-  color: yellow;
-  background: url("./diana.jpg");
-}
+// @import "modules/primary-nav";
+// @import "modules/hero";
+// @import "modules/button";
+// @import "modules/wrapper";
+// @import "modules/page-section";
+// @import "modules/headline";
+// @import "modules/row";
+// @import "modules/generic-content-container";
+// @import "modules/section-title";
+// @import "modules/feature-item";
+// @import "modules/testimonial";
+// @import "modules/footer";
+// @import "modules/reveal-item";
+// @import "modules/modal";
+// @import "modules/social-icons";

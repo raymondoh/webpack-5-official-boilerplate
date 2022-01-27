@@ -3,7 +3,7 @@
 *::before {
   margin: 0;
   padding: 0;
-  @include border-box;
+  //@include border-box;
   //box-sizing: inherit;
 }
 
@@ -15,7 +15,9 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: $textColor;
+  //color: $textColor;
+  //background: url("./diana.jpg");
+  background-color: green;
 }
 
 img {
@@ -30,4 +32,15 @@ a {
 ::selection {
   background-color: red;
   color: white;
+}
+
+.hello {
+  height: 100px;
+  color: yellow;
+  background: url("./diana.jpg");
+}
+header {
+  background-image: url("./diana.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
 }
