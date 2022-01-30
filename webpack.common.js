@@ -4,13 +4,17 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: {
     //app: "./src/index.js",
-    main: path.resolve(__dirname, "./src/index.js"),
+    main: path.resolve(__dirname, "./src/app.js"),
     //print: path.resolve(__dirname, "./src/print.js"),
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
-    //filename: "scripts/[name].bundle.js",
     filename: "scripts/[name].[contenthash].js",
+    //filename: "scripts/[name].bundle.js", // option
+    path: path.resolve(__dirname, "dist"),
+    assetModuleFilename: "images/[name][ext][query]",
+    //assetModuleFilenme: "images/[name].[ext]", // option
+    //assetModuleFilename: "images/[hash][ext][query]",// option
+
     clean: true,
   },
   plugins: [
